@@ -4,7 +4,7 @@ let count = 0
 let sum = 0
 
 for (const key in obj) {
-  var price = obj[key].price
+  let price = obj[key].price
   let info = obj[key].info
   count++
 
